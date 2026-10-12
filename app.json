@@ -22,7 +22,6 @@
     "orientation": "portrait",
     "plugins": [
       "expo-router",
-      "expo-notifications",
       [
         "expo-image-picker",
         {
