@@ -9,7 +9,8 @@
       },
       "env": {
         "YARN_IGNORE_ENGINES": "true"
-      }
+      },
+      "distribution": "internal"
     },
     "production": {
       "android": {
