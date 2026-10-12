@@ -1,1 +1,19 @@
-{"compilerOptions":{"baseUrl":".","paths":{"@gharfix/shared":["../../packages/shared/src/index.ts"]},"strict":true},"extends":"expo/tsconfig.base","include":["app","components","lib","babel.config.js","metro.config.js"]}
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@gharfix/shared": [
+        "./vendor/gharfix-shared/dist/index.js"
+      ]
+    },
+    "strict": true
+  },
+  "extends": "expo/tsconfig.base",
+  "include": [
+    "app",
+    "components",
+    "lib",
+    "babel.config.js",
+    "metro.config.js"
+  ]
+}

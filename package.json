@@ -1,6 +1,5 @@
 {
   "dependencies": {
-    "@gharfix/shared": "file:./vendor/gharfix-shared",
     "@react-native-async-storage/async-storage": "2.1.0",
     "@supabase/supabase-js": "^2.47.0",
     "expo": "52.0.0",
