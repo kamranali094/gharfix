@@ -8,7 +8,10 @@
         "buildType": "apk"
       },
       "env": {
-        "YARN_IGNORE_ENGINES": "true"
+        "YARN_IGNORE_ENGINES": "true",
+        "EXPO_PUBLIC_SUPABASE_URL": "https://swpiezhlhlwcmbwebmmx.supabase.co",
+        "EXPO_PUBLIC_SUPABASE_ANON_KEY": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InN3cGllemhsaGx3Y21id2VibW14Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTE3NDcyMTgsImV4cCI6MjEwNzMyMzIxOH0.tI7hkKP79iqrFf3MDnPUoN1Nxk7zrhedLtJgaAoFDm0",
+        "EXPO_PUBLIC_OTP_DEV_MODE": "true"
       },
       "distribution": "internal"
     },
