@@ -6,12 +6,14 @@
     "preview": {
       "android": {
         "buildType": "apk"
-      }
+      },
+      "nodeVersion": "22.x"
     },
     "production": {
       "android": {
         "buildType": "app-bundle"
-      }
+      },
+      "nodeVersion": "22.x"
     }
   },
   "submit": {
