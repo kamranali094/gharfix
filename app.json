@@ -1,1 +1,53 @@
-{"expo":{"android":{"adaptiveIcon":{"backgroundColor":"#16A34A"},"package":"com.gharfix.app"},"experiments":{"typedRoutes":true},"icon":"./assets/icon.png","ios":{"bundleIdentifier":"com.gharfix.app","supportsTablet":true},"name":"GharFix","newArchEnabled":true,"orientation":"portrait","plugins":["expo-router","expo-notifications",["expo-image-picker",{"photosPermission":"Allow GharFix to access your photos so you can attach problem photos to bookings."}]],"scheme":"gharfix","slug":"gharfix","splash":{"backgroundColor":"#16A34A"},"userInterfaceStyle":"light","version":"0.1.0","web":{"bundler":"metro"}}}
+{
+  "expo": {
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#16A34A"
+      },
+      "package": "com.gharfix.app",
+      "permissions": [
+        "android.permission.RECORD_AUDIO"
+      ]
+    },
+    "experiments": {
+      "typedRoutes": true
+    },
+    "icon": "./assets/icon.png",
+    "ios": {
+      "bundleIdentifier": "com.gharfix.app",
+      "supportsTablet": true
+    },
+    "name": "GharFix",
+    "newArchEnabled": true,
+    "orientation": "portrait",
+    "plugins": [
+      "expo-router",
+      "expo-notifications",
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Allow GharFix to access your photos so you can attach problem photos to bookings."
+        }
+      ]
+    ],
+    "scheme": "gharfix",
+    "slug": "gharfix",
+    "splash": {
+      "backgroundColor": "#16A34A"
+    },
+    "userInterfaceStyle": "light",
+    "version": "0.1.0",
+    "web": {
+      "bundler": "metro"
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "d2f0a5f6-239a-4749-af68-5d71fa9fdfb3"
+      }
+    },
+    "owner": "techkami"
+  }
+}
